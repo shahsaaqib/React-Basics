@@ -2,11 +2,11 @@
   "name": "react-basics",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "npm run format & npm run lint & parcel src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
-    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
